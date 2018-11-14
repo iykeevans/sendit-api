@@ -1,0 +1,22 @@
+{
+  "name": "sendit-api",
+  "version": "1.0.0",
+  "description": "A clone of andela sendit api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iykeevans",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-mocha": "^6.0.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "supertest": "^3.3.0"
+  }
+}
